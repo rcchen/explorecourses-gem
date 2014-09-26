@@ -1,0 +1,5 @@
+require_relative 'explorecourses/course'
+require_relative 'explorecourses/section'
+require_relative 'explorecourses/schedule'
+require_relative 'explorecourses/instructor'
+require_relative 'explorecourses/base'
