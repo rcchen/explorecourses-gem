@@ -17,10 +17,10 @@ module ExploreCourses
         end
     end
 
-    def self.query_courses(query)
+    def self.query_courses(query, opts = {})
         params = {
-            view: XML_VERSION,
-            q: query
+            :view => XML_VERSION,
+            :q => query
         }
         request = Typhoeus::Request.new(URL_BASE_SEARCH, params: params)
         request.run

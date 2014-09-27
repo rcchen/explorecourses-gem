@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name          = 'explorecourses'
-    s.version       = '0.1'
+    s.version       = '0.1.1'
     s.date          = '2014-09-26'
     s.summary       = 'Ruby wrapper for ExploreCourses API'
     s.description   = 'Allow Ruby programs to easily access the ExploreCourses API'
